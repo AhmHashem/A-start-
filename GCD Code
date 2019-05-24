@@ -1,0 +1,16 @@
+clear;clc;
+a=input('enter a number ');
+b=input('enter a number ');
+j=1;
+while  a~=0 && b~=1 
+if b~=0
+r=a-(b*(floor(a/b)));
+a=b;
+b=r;
+r=a-(b*(floor(a/b)));
+z(j)=r;
+j=j+1;
+end
+end
+GCD=min(z(z>0));
+disp(GCD);
