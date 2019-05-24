@@ -1,0 +1,15 @@
+clear;clc;
+a=input('enter a number ');
+b=input('enter a number ');
+c=1+b ;
+j=1;
+v=0;
+while  j==1
+if  rem(c,a)==0
+  disp(c/a);
+  j=0;
+else 
+c=c+b;
+end 
+end 
+ disp(v);
