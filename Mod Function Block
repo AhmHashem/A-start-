@@ -1,0 +1,5 @@
+ ##a mod c = r
+a=input('enter a number ');
+c=input('enter a number ');
+r=((a/c)-(floor(a/c)))*c;
+disp(r); 
